@@ -7,7 +7,24 @@
         <link rel="stylesheet" href="style.css">
         <script type="text/javascript" src="index.js"></script>
     </head>
-<body background="jackma.jpeg">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("jackma.jpeg");
+
+  height: 100%; 
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<body>
+<div class="bg"> 
 <h1 class="intro">
     Annyeonghaseo^^
 </h1>
@@ -19,5 +36,6 @@
    See U Guys
    <br/><button onclick="displayAlert()">Click Me^^</button>
 </h2>
+ </div>
 </body>
 </html>
